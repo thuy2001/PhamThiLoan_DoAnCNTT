@@ -1,0 +1,625 @@
+{
+  "id": "3e5fc5f9-fe5c-4ff7-a6da-742c54ee4ce8",
+  "version": "2.0",
+  "name": "DOAN_CNTT",
+  "url": "https://ttburgerking.firebaseapp.com/",
+  "tests": [{
+    "id": "1f4103b1-bbe5-4047-a9f4-be61b5a78191",
+    "name": "DN_01",
+    "commands": [{
+      "id": "ff96a8a0-f8e9-404e-9ca4-c2775ce2ab8a",
+      "comment": "",
+      "command": "open",
+      "target": "https://ttburgerking.firebaseapp.com/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "9577a577-b7e8-44f1-9e3f-33fe5e884bdd",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "783x824",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "0f6920e3-24a8-4859-81c6-dbfaff9e4c8d",
+      "comment": "",
+      "command": "click",
+      "target": "css=.anticon-user > svg",
+      "targets": [
+        ["css=.anticon-user > svg", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "efc7d15b-0806-4770-b234-8c622145ef49",
+      "comment": "",
+      "command": "click",
+      "target": "id=normal_login_username",
+      "targets": [
+        ["id=normal_login_username", "id"],
+        ["css=#normal_login_username", "css:finder"],
+        ["xpath=//input[@id='normal_login_username']", "xpath:attributes"],
+        ["xpath=//form[@id='normal_login']/div/div/div/div/span/input", "xpath:idRelative"],
+        ["xpath=//span/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "3bad8609-0372-4702-a802-0f199bc3d9f4",
+      "comment": "",
+      "command": "type",
+      "target": "id=normal_login_username",
+      "targets": [
+        ["id=normal_login_username", "id"],
+        ["css=#normal_login_username", "css:finder"],
+        ["xpath=//input[@id='normal_login_username']", "xpath:attributes"],
+        ["xpath=//form[@id='normal_login']/div/div/div/div/span/input", "xpath:idRelative"],
+        ["xpath=//span/input", "xpath:position"]
+      ],
+      "value": "linh@gmail.com"
+    }, {
+      "id": "54821cf4-e2f5-4081-acbf-aac35eff9f89",
+      "comment": "",
+      "command": "click",
+      "target": "id=normal_login_password",
+      "targets": [
+        ["id=normal_login_password", "id"],
+        ["css=#normal_login_password", "css:finder"],
+        ["xpath=//input[@id='normal_login_password']", "xpath:attributes"],
+        ["xpath=//form[@id='normal_login']/div[2]/div/div/div/span/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/div/span/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "b2bfa5da-6154-4a18-a6b5-aaad99b35506",
+      "comment": "",
+      "command": "type",
+      "target": "id=normal_login_password",
+      "targets": [
+        ["id=normal_login_password", "id"],
+        ["css=#normal_login_password", "css:finder"],
+        ["xpath=//input[@id='normal_login_password']", "xpath:attributes"],
+        ["xpath=//form[@id='normal_login']/div[2]/div/div/div/span/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/div/span/input", "xpath:position"]
+      ],
+      "value": "567890"
+    }, {
+      "id": "f6733272-d575-451b-8609-ccd5c1929bd8",
+      "comment": "",
+      "command": "click",
+      "target": "css=.login-form-button > span",
+      "targets": [
+        ["css=.login-form-button > span", "css:finder"],
+        ["xpath=//form[@id='normal_login']/div[4]/div/div/div/button/span", "xpath:idRelative"],
+        ["xpath=//div[4]/div/div/div/button/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Đăng Nhập')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "34042b23-eae1-452b-b22f-b90939ab7e2c",
+    "name": "TimKiem",
+    "commands": [{
+      "id": "e8e686a7-30cd-4e1d-9cdb-2ffeeb7f3b9d",
+      "comment": "",
+      "command": "open",
+      "target": "https://ttburgerking.firebaseapp.com/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "9fe4cf67-bdee-488c-8a6b-4ee3606c1f22",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "784x824",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "243beafa-1133-4504-9199-b140be55319f",
+      "comment": "",
+      "command": "click",
+      "target": "css=.anticon-search > svg",
+      "targets": [
+        ["css=.anticon-search > svg", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "a78deed4-4fd4-4dba-93a3-6ca4f8a3d340",
+      "comment": "",
+      "command": "click",
+      "target": "css=.ant-input:nth-child(1)",
+      "targets": [
+        ["css=.ant-input:nth-child(1)", "css:finder"],
+        ["xpath=//input[@value='']", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div/div/div[2]/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "06a7b4e0-c8f5-453b-829d-46ecd3c145e3",
+      "comment": "",
+      "command": "type",
+      "target": "css=.ant-input:nth-child(1)",
+      "targets": [
+        ["css=.ant-input:nth-child(1)", "css:finder"],
+        ["xpath=//input[@value='sa']", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div/div/div[2]/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "sa"
+    }, {
+      "id": "b5007df3-ba57-4736-aa47-b92d22a5b8fa",
+      "comment": "",
+      "command": "click",
+      "target": "css=.ant-table-cell-row-hover .ant-typography",
+      "targets": [
+        ["css=.ant-table-cell-row-hover .ant-typography", "css:finder"],
+        ["xpath=//div[@id='root']/div/div/div[2]/div/div/div/div/div/div/div/div/table/tbody/tr/td/a/span[2]", "xpath:idRelative"],
+        ["xpath=//td/a/span[2]", "xpath:position"],
+        ["xpath=//span[contains(.,'Salad cá hồi cay')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "4fadacfb-3ed1-49c8-9e64-b3df21edb1d4",
+    "name": "TimKiem_Failed",
+    "commands": [{
+      "id": "99aed45e-6202-464b-8536-70d0ae3d3be0",
+      "comment": "",
+      "command": "open",
+      "target": "https://ttburgerking.firebaseapp.com/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "2d1337d6-b27e-42e1-9af6-c8b3813ca08e",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "784x824",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "a7df0478-3968-479d-9257-a997b2c49307",
+      "comment": "",
+      "command": "click",
+      "target": "css=.anticon-search > svg",
+      "targets": [
+        ["css=.anticon-search > svg", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "cac83381-ac0d-4064-87e4-f03324246b30",
+      "comment": "",
+      "command": "click",
+      "target": "css=.slick-active .banner",
+      "targets": [
+        ["css=.slick-active .banner", "css:finder"],
+        ["xpath=//div[@id='root']/div[2]/div/div/div/div/div[4]/div/div/div", "xpath:idRelative"],
+        ["xpath=//div[4]/div/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "e849b9c7-d1df-46a8-b713-20a8bab143e8",
+      "comment": "",
+      "command": "click",
+      "target": "css=.anticon-search > svg",
+      "targets": [
+        ["css=.anticon-search > svg", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "3c4fdc84-4201-4cb8-9c5a-463992968b06",
+      "comment": "",
+      "command": "click",
+      "target": "css=.ant-input:nth-child(1)",
+      "targets": [
+        ["css=.ant-input:nth-child(1)", "css:finder"],
+        ["xpath=//input[@value='']", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div/div/div[2]/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "88d5513e-7833-4919-8d2e-1a4daeb38741",
+      "comment": "",
+      "command": "type",
+      "target": "css=.ant-input:nth-child(1)",
+      "targets": [
+        ["css=.ant-input:nth-child(1)", "css:finder"],
+        ["xpath=//input[@value='gà không cay']", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div/div/div[2]/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "gà không cay"
+    }]
+  }, {
+    "id": "e088e6f0-006d-4183-ae5a-082a83f795e2",
+    "name": "ChinhSuaHS_01",
+    "commands": [{
+      "id": "c4f979b2-c2d8-4837-8eb5-99a457ce1230",
+      "comment": "",
+      "command": "open",
+      "target": "https://ttburgerking.firebaseapp.com/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "50ed684d-3e6e-4cb7-925c-f2cc5cd24087",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "784x824",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "f242690f-0351-4ad4-8820-b9368b2b7d76",
+      "comment": "",
+      "command": "click",
+      "target": "css=.ant-avatar-string",
+      "targets": [
+        ["css=.ant-avatar-string", "css:finder"],
+        ["xpath=//div[@id='root']/div/div/div[2]/a[2]/span/span", "xpath:idRelative"],
+        ["xpath=//span/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "0f3af5b3-d3e3-4320-98a8-6668bd8063c4",
+      "comment": "",
+      "command": "click",
+      "target": "id=edit_profile_form_username",
+      "targets": [
+        ["id=edit_profile_form_username", "id"],
+        ["css=#edit_profile_form_username", "css:finder"],
+        ["xpath=//input[@id='edit_profile_form_username']", "xpath:attributes"],
+        ["xpath=//form[@id='edit_profile_form']/div[2]/div[2]/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "42a98374-d599-4a18-a5ac-c4ae4e9894fa",
+      "comment": "",
+      "command": "type",
+      "target": "id=edit_profile_form_username",
+      "targets": [
+        ["id=edit_profile_form_username", "id"],
+        ["css=#edit_profile_form_username", "css:finder"],
+        ["xpath=//input[@id='edit_profile_form_username']", "xpath:attributes"],
+        ["xpath=//form[@id='edit_profile_form']/div[2]/div[2]/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "Ngọc Linh"
+    }, {
+      "id": "4e0a07de-5c13-4610-b2d3-0e22af6781f3",
+      "comment": "",
+      "command": "click",
+      "target": "id=edit_profile_form_address",
+      "targets": [
+        ["id=edit_profile_form_address", "id"],
+        ["css=#edit_profile_form_address", "css:finder"],
+        ["xpath=//input[@id='edit_profile_form_address']", "xpath:attributes"],
+        ["xpath=//form[@id='edit_profile_form']/div[3]/div[2]/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[3]/div[2]/div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "3e51d73f-a9e8-4e7b-a2f5-dcda84ada6d1",
+      "comment": "",
+      "command": "type",
+      "target": "id=edit_profile_form_address",
+      "targets": [
+        ["id=edit_profile_form_address", "id"],
+        ["css=#edit_profile_form_address", "css:finder"],
+        ["xpath=//input[@id='edit_profile_form_address']", "xpath:attributes"],
+        ["xpath=//form[@id='edit_profile_form']/div[3]/div[2]/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[3]/div[2]/div/div/input", "xpath:position"]
+      ],
+      "value": "Hà Nội"
+    }, {
+      "id": "67f47e81-3bd3-40c3-8994-b1e4b45959ed",
+      "comment": "",
+      "command": "click",
+      "target": "id=edit_profile_form_phoneNumber",
+      "targets": [
+        ["id=edit_profile_form_phoneNumber", "id"],
+        ["css=#edit_profile_form_phoneNumber", "css:finder"],
+        ["xpath=//input[@id='edit_profile_form_phoneNumber']", "xpath:attributes"],
+        ["xpath=//form[@id='edit_profile_form']/div[4]/div[2]/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[4]/div[2]/div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "4126174b-0c18-40eb-93d9-15cfaef41d11",
+      "comment": "",
+      "command": "type",
+      "target": "id=edit_profile_form_phoneNumber",
+      "targets": [
+        ["id=edit_profile_form_phoneNumber", "id"],
+        ["css=#edit_profile_form_phoneNumber", "css:finder"],
+        ["xpath=//input[@id='edit_profile_form_phoneNumber']", "xpath:attributes"],
+        ["xpath=//form[@id='edit_profile_form']/div[4]/div[2]/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[4]/div[2]/div/div/input", "xpath:position"]
+      ],
+      "value": "0334630759"
+    }, {
+      "id": "3cf4adac-108e-47a7-8ba1-53bd876a4a43",
+      "comment": "",
+      "command": "click",
+      "target": "css=.ant-btn-primary > span",
+      "targets": [
+        ["css=.ant-btn-primary > span", "css:finder"],
+        ["xpath=//form[@id='edit_profile_form']/div[6]/div/div/div/button/span", "xpath:idRelative"],
+        ["xpath=//div/button/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Lưu')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "6575a769-2882-45b6-875c-90cdfcadea85",
+    "name": "ThemMonAn",
+    "commands": [{
+      "id": "94cd8eb8-c105-4713-860e-fdc70b6465bf",
+      "comment": "",
+      "command": "open",
+      "target": "https://ttburgerking.firebaseapp.com/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "fb6dd15b-9595-44ea-9169-ceb40aef8ef7",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "784x824",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "0adbf857-096b-41b0-b591-1a60ab39bbeb",
+      "comment": "",
+      "command": "click",
+      "target": "css=.ant-col:nth-child(6) .icon:nth-child(1) path",
+      "targets": [
+        ["css=.ant-col:nth-child(6) .icon:nth-child(1) path", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "28b8416d-eeb5-4876-aa26-7803057d07c5",
+      "comment": "",
+      "command": "assertAlert",
+      "target": "Đã thêm món ăn vào giỏ hàng",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "3e49574f-ec98-406c-8356-f8e798967d8d",
+      "comment": "",
+      "command": "click",
+      "target": "css=.ant-col:nth-child(5) .icon:nth-child(1) svg",
+      "targets": [
+        ["css=.ant-col:nth-child(5) .icon:nth-child(1) svg", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "a8fd97d8-034b-409a-bfac-c563c1e4218d",
+      "comment": "",
+      "command": "assertAlert",
+      "target": "Đã thêm món ăn vào giỏ hàng",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "903dcc6c-2f63-46ab-8055-2f39190a3eec",
+      "comment": "",
+      "command": "click",
+      "target": "css=.quantity",
+      "targets": [
+        ["css=.quantity", "css:finder"],
+        ["xpath=//div[@id='root']/div/div/div[2]/a/span[2]", "xpath:idRelative"],
+        ["xpath=//span[2]", "xpath:position"],
+        ["xpath=//span[contains(.,'19')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "36c7c1e7-a8ef-41c0-a6a4-5733d9a27a97",
+    "name": "XoaMonAn",
+    "commands": [{
+      "id": "6687f5df-6a61-4fb5-9e17-2d79f62cd89d",
+      "comment": "",
+      "command": "open",
+      "target": "https://ttburgerking.firebaseapp.com/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "71cfc5c5-7578-4d8e-b280-5337e4b71b6a",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "784x824",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "42f6f838-ae7b-45d0-a66d-f5b4ef5f80f4",
+      "comment": "",
+      "command": "click",
+      "target": "css=.anticon-shopping > svg",
+      "targets": [
+        ["css=.anticon-shopping > svg", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "9be3a81d-98b5-45d2-8699-72a2d4b41157",
+      "comment": "",
+      "command": "click",
+      "target": "css=.ant-table-cell-row-hover > .ant-btn > span",
+      "targets": [
+        ["css=.ant-table-cell-row-hover > .ant-btn > span", "css:finder"],
+        ["xpath=//div[@id='root']/div[2]/div[2]/div/div/div[2]/div/div/div/div/div/table/tbody/tr/td[5]/button/span", "xpath:idRelative"],
+        ["xpath=//td[5]/button/span", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "7d18c46b-ef51-49db-938c-8e57efe85b7d",
+    "name": "ThanhToan",
+    "commands": [{
+      "id": "a69aa070-2f71-4f65-8c99-251598963f3d",
+      "comment": "",
+      "command": "open",
+      "target": "https://ttburgerking.firebaseapp.com/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "7f972a49-e965-4aa1-878a-7277213c23e0",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "786x824",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "1e395155-d899-4d1d-9446-4b0adb8ea0b4",
+      "comment": "",
+      "command": "click",
+      "target": "css=.quantity",
+      "targets": [
+        ["css=.quantity", "css:finder"],
+        ["xpath=//div[@id='root']/div/div/div[2]/a/span[2]", "xpath:idRelative"],
+        ["xpath=//span[2]", "xpath:position"],
+        ["xpath=//span[contains(.,'18')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "3e9cb595-f8fd-429e-a39f-07aacaed80f8",
+      "comment": "",
+      "command": "click",
+      "target": "css=.payment-btn > span",
+      "targets": [
+        ["css=.payment-btn > span", "css:finder"],
+        ["xpath=//div[@id='root']/div[2]/div[2]/div/div/div[3]/button/span", "xpath:idRelative"],
+        ["xpath=//div[3]/button/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "3836c51a-6753-4168-b906-cc4ed349d198",
+      "comment": "",
+      "command": "click",
+      "target": "id=confirm-payment_phoneNumber",
+      "targets": [
+        ["id=confirm-payment_phoneNumber", "id"],
+        ["css=#confirm-payment_phoneNumber", "css:finder"],
+        ["xpath=//input[@id='confirm-payment_phoneNumber']", "xpath:attributes"],
+        ["xpath=//form[@id='confirm-payment']/div[2]/div[2]/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div[2]/div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a3be5919-f266-4fd1-9a70-2d97744026e7",
+      "comment": "",
+      "command": "type",
+      "target": "id=confirm-payment_phoneNumber",
+      "targets": [
+        ["id=confirm-payment_phoneNumber", "id"],
+        ["css=#confirm-payment_phoneNumber", "css:finder"],
+        ["xpath=//input[@id='confirm-payment_phoneNumber']", "xpath:attributes"],
+        ["xpath=//form[@id='confirm-payment']/div[2]/div[2]/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div[2]/div/div/input", "xpath:position"]
+      ],
+      "value": "0334630666"
+    }, {
+      "id": "eef57e89-8c0c-4144-a6df-98e798303828",
+      "comment": "",
+      "command": "click",
+      "target": "id=confirm-payment_address",
+      "targets": [
+        ["id=confirm-payment_address", "id"],
+        ["css=#confirm-payment_address", "css:finder"],
+        ["xpath=//input[@id='confirm-payment_address']", "xpath:attributes"],
+        ["xpath=//form[@id='confirm-payment']/div/div[2]/div/div/input", "xpath:idRelative"],
+        ["xpath=//div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "8c9bbb63-565e-4df2-b1ab-370adaf54dfb",
+      "comment": "",
+      "command": "type",
+      "target": "id=confirm-payment_address",
+      "targets": [
+        ["id=confirm-payment_address", "id"],
+        ["css=#confirm-payment_address", "css:finder"],
+        ["xpath=//input[@id='confirm-payment_address']", "xpath:attributes"],
+        ["xpath=//form[@id='confirm-payment']/div/div[2]/div/div/input", "xpath:idRelative"],
+        ["xpath=//div/input", "xpath:position"]
+      ],
+      "value": "Hải Dương"
+    }, {
+      "id": "d058ef45-fa8f-4636-9ce0-93535608dd74",
+      "comment": "",
+      "command": "click",
+      "target": "css=.confirm-btn > span",
+      "targets": [
+        ["css=.confirm-btn > span", "css:finder"],
+        ["xpath=//form[@id='confirm-payment']/div[3]/div/div/div/div/button[2]/span", "xpath:idRelative"],
+        ["xpath=//div/div/button[2]/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Xác nhận')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "22b47ff8-1c38-4de4-ad8d-916832453aaf",
+      "comment": "",
+      "command": "assertAlert",
+      "target": "Đặt hàng thành công vui lòng chờ nhận hàng",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "9c7a4a4e-c857-490e-b1bb-1ea6cc05ea79",
+    "name": "XemMonAn",
+    "commands": [{
+      "id": "101ba59c-2d52-425c-b874-0d07e1746221",
+      "comment": "",
+      "command": "open",
+      "target": "https://ttburgerking.firebaseapp.com/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "063cfdea-0e7c-43cf-8419-eefbf39e35a4",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "792x824",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "45fb5f2a-4069-45c0-ae23-6bce7899bd2c",
+      "comment": "",
+      "command": "click",
+      "target": "css=.sc-dmRaPn .ant-btn > span",
+      "targets": [
+        ["css=.sc-dmRaPn .ant-btn > span", "css:finder"],
+        ["xpath=//div[@id='root']/div[2]/div[2]/a/button/span", "xpath:idRelative"],
+        ["xpath=//div[2]/a/button/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "b27eee33-e99c-4c9e-b2bb-b3d8ab0527a7",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,0)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "75fe4bbf-c3a9-4588-88af-ba3a531dcf9d",
+      "comment": "",
+      "command": "click",
+      "target": "css=.ant-col:nth-child(7) .icon:nth-child(2) path",
+      "targets": [
+        ["css=.ant-col:nth-child(7) .icon:nth-child(2) path", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "152c2f27-956c-4db7-88ed-f0f9d08863b2",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,0)",
+      "targets": [],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "1789caa7-ee46-4e48-8242-89ac91681820",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": []
+  }],
+  "urls": ["https://ttburgerking.firebaseapp.com/"],
+  "plugins": []
+}
